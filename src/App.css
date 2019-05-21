@@ -1,19 +1,3 @@
-/* 
-colors: 
-navy: rgb(39, 44, 52);
-light-blue: rgb(97, 218, 251);
-*/
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-} */
-
 .container {
   width: 80%;
   margin: 0 auto;
@@ -45,15 +29,27 @@ light-blue: rgb(97, 218, 251);
   margin-top: 30px;
 }
 
-/* .App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
